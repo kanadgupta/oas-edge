@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "oas": "^23.0.2",
-    "oas-normalize": "^11.0.1"
+    "oas-normalize": "^11.0.1",
+    "yaml": "^2.3.3"
   }
 }
