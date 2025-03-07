@@ -10,7 +10,7 @@ export default {
 
 		// const normalized_yaml = await new OASNormalize(url).validate({ convertToLatest:true })
 		const oas_specs = new Oas(normalized_yaml)
-		const info = oas_specs.info
-		return new Response(info)
+		const info = oas_specs.api.info
+		return Response.json(info)
 	},
 }
