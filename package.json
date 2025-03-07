@@ -8,11 +8,11 @@
     "start": "wrangler dev"
   },
   "devDependencies": {
-    "wrangler": "^3.0.0"
+    "wrangler": "^3.114.0"
   },
   "dependencies": {
-    "oas": "^23.0.2",
-    "oas-normalize": "^11.0.1",
+    "oas": "^26.0.2",
+    "oas-normalize": "^13.1.2",
     "yaml": "^2.3.3"
   }
 }
